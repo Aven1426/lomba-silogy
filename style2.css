@@ -1,0 +1,6 @@
+header.header {
+    background-image: url(./src/assets/bg-2.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100%;
+}

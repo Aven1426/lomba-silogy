@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="h-[100vh] header mb-[150px]">
+      <nav>
+        <div class="nav-container flex justify-between items-center">
+          <div class="left flex items-center justify-between px-8 mt-1">
+            <img src="./src/assets/logo.png" width="100" width="100" alt="" />
+            <h1
+              class="ml-2 font-oswald text-3xl text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-400"
+            >
+              HealthAndCare
+            </h1>
+          </div>
+          <div class="right">
+            <ul class="flex flex-wrap font-normal">
+              <li
+                class="pr-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-600 hover:to-blue-600"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="pr-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-600 hover:to-blue-600"
+              >
+                <a href="#">Artikel</a>
+              </li>
+              <li
+                class="pr-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-600 hover:to-blue-600"
+              >
+                <a href="#">Tentang</a>
+              </li>
+              <li
+                class="pr-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-600 hover:to-blue-600"
+              >
+                <a href="#">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home" class="h-[80vh]">
+        <div class="hero w-full relative h-full flex">
+          <div
+            class="hero-container text-center w-full flex justify-end items-center mr-28"
+          >
+            <div class="max-w-lg">
+              <h1 class="font-neue font-medium text-5xl">
+                What is
+                <span
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-400"
+                  >HealthAndCare?</span
+                >
+              </h1>
+              <p class="text-base italic font-normal">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum accusantium rem reprehenderit quaerat, suscipit nulla
+                magnam tenetur deserunt ex vitae quis eum sunt illo. Error
+                obcaecati vitae sequi neque exercitationem?
+              </p>
+              <div class="btn button mt-12">
+                <a
+                  href=""
+                  class="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-400 text-white rounded-md"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section id="icons" class="w-full h-full py-2 mb-[150px]">
+      <div class="section-container w-full text-center">
+        <div class="title mb-12">
+          <h1 class="font-neue text-5xl mb-6 tracking-wider">
+            What We Provide
+          </h1>
+        </div>
+        <div class="icon-container flex w-full justify-center">
+          <div class="icon-box mx-16 text-center flex items-center flex-col">
+            <i class="bx bx-cart text-[#4ade80] text-[70px]"></i>
+            <a href="#" class="text-xl font-medium">Pharmacy</a>
+          </div>
+          <div class="icon-box mx-16 text-center flex items-center flex-col">
+            <i class="bx bx-heart text-[#4ade80] text-[70px]"></i>
+            <a href="#" class="text-xl font-medium">Medicine</a>
+          </div>
+          <div class="icon-box mx-16 text-center flex items-center flex-col">
+            <i class="bx bxs-capsule text-[#4ade80] text-[70px]"></i>
+            <a href="#" class="text-xl font-medium">Medicine</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="tentang mb-[300px]">
+      <div class="tentang-container w-full flex justify-between px-12">
+        <div class="left">
+          <img src="./src/assets/hero-1.jpg" width="600" height="600" alt="" />
+        </div>
+        <div class="right max-w-xl mt-8">
+          <h1 class="font-neue text-5xl mb-12">Tentang HealthCare</h1>
+          <p class="max-w-md italic font-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti,
+            rem at. Id doloremque quibusdam adipisci necessitatibus cum eaque
+            repellendus aliquam non consequuntur sint totam voluptatem, nam
+            dolor animi illum, cupiditate deserunt perferendis. Id maiores
+            cumque molestiae quidem dolores eius minima.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="contact mb-[150px]">
+      <div class="form flex justify-center items-center">
+        <div
+          class="form-container border flex justify-center items-center px-12 py-8"
+        >
+          <div class="left px-8">
+            <h1 class="font-neue text-5xl">Get in Touch</h1>
+            <form action="" method="post">
+              <div class="form-group flex justify-center mb-4">
+                <div class="input-form mr-6">
+                  <input
+                    type="text"
+                    class="bg-transparent py-2 px-2 w-full border rounded-sm placeholder:text-placeholder"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="input-form">
+                  <input
+                    type="text"
+                    class="bg-transparent py-2 px-2 w-full border rounded-sm placeholder:text-placeholder"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="input-form w-full mb-4">
+                <input
+                  type="text"
+                  class="bg-transparent py-2 px-2 w-full border rounded-sm placeholder:text-placeholder"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="input-form w-full">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="bg-transparent py-2 px-2 w-full border rounded-sm placeholder:text-placeholder"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="btn button mt-4">
+                <button
+                  href=""
+                  class="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-400 text-white rounded-md"
+                >
+                  Lihat Selengkapnya
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="right">
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+              <i class="bx bx-current-location"></i>
+              <div class="desc">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Modi, inventore?
+                </p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Modi, inventore?
+                </p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Modi, inventore?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
